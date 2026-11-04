@@ -1,0 +1,21 @@
+# dependencies
+node_modules/
+
+# next
+.next/
+out/
+
+# env — NEVER commit secrets
+.env
+.env.local
+.env*.local
+
+# storage backups / temp files (keep the empty seed files tracked)
+server/data/*.bak
+server/data/*.tmp-*
+server/data/*.corrupt-*.bak
+
+# misc
+.DS_Store
+*.log
+tsconfig.tsbuildinfo
